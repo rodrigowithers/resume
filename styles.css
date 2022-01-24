@@ -1,0 +1,168 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-color: rgb(26, 29, 29); 
+    /* background: linear-gradient(rgb(26, 29, 29), rgb(42, 45, 46)) */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: whitesmoke;
+
+    border: solid 2px;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-family: monospace;
+    text-decoration: none;
+
+
+    padding-left: 12px;
+    padding-right: 12px;
+
+    padding: 8px;
+}
+  
+.info {
+    margin: auto;
+}
+
+.background {
+    width: 100%;
+    height: 15%;
+
+
+    position: absolute;
+
+    background: url("background.jpg");
+    background-repeat: repeat-x;
+}
+
+.rotated {
+    position: absolute;
+    height: 15%;
+    transform: rotate(180deg);
+}
+
+.name {
+    font-size: 42px;
+    text-align: center;
+
+    margin: auto;
+    width: 50%;
+    padding-top: 12px;
+    
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;    
+}
+
+.profile-picture {
+    position: relative;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 156px;
+    width: 156px;
+
+    background: url("profile.jpg");
+    background-size: contain;
+    clip-path: circle(78px at center);
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 32px;
+    text-align: center;
+
+    margin-top: 24px;
+    margin-bottom: 36px;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 50%;
+    padding-top: 12px;
+    
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;    
+}
+
+.extra-info {
+    padding-top: 0px;
+    font-size: 20px; 
+    font-weight: 100;
+}
+
+.paragraph {
+    margin: auto;
+    width: 60%;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+    color: rgb(109, 109, 109);
+}
+
+.spacer {
+    margin: 16px;
+}
+
+.divider {
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 8px;
+    margin-bottom: 16px;
+
+    height: 2px;
+    width: auto;
+
+    background-color: whitesmoke;
+}
+
+.history {
+    margin: auto;
+    width: 50%;
+    
+    color: whitesmoke;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.horizontal-list{
+    display: inline-block;
+
+    list-style: none;
+    text-align: center;
+    line-height: 24px;
+}
